@@ -1,0 +1,9 @@
+{
+  "name": "Rutas Nativas Chile",
+  "short_name": "Rutas Nativas",
+  "description": "Viajes nacionales por Chile con experiencias grupales y personalizadas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8e7",
+  "theme_color": "#7e9f73"
+}
