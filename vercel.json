@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/destinos", "destination": "/destinos.html" },
+    { "source": "/cotizar", "destination": "/cotizar.html" },
+    { "source": "/experiencias", "destination": "/experiencias.html" },
+    { "source": "/contacto", "destination": "/contacto.html" },
+    { "source": "/politicas", "destination": "/politicas.html" }
+  ]
+}

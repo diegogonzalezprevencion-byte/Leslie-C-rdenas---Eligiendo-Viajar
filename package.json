@@ -1,0 +1,14 @@
+{
+  "name": "eligiendo-viajar-web-estatica",
+  "version": "1.0.2",
+  "private": true,
+  "description": "APP-web estatica para emprendimiento de viajes nacionales en Chile, lista para GitHub y Vercel.",
+  "scripts": {
+    "build": "node scripts/vercel-build.js",
+    "vercel-build": "node scripts/vercel-build.js",
+    "preview": "node scripts/local-preview.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
