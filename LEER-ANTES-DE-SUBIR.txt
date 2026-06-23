@@ -1,0 +1,43 @@
+INSTRUCCIONES CRÍTICAS PARA CORREGIR EL ERROR DE VERCEL
+
+El error "npm error Exit handler never called" ocurre durante npm install.
+Esta entrega evita npm por completo.
+
+ANTES DE SUBIR ESTE ZIP AL REPOSITORIO:
+
+1. Entra a tu repositorio de GitHub.
+2. Borra todos los archivos anteriores.
+3. Sube solamente los archivos contenidos dentro de este ZIP.
+4. Asegúrate de que NO quede ningún package.json ni package-lock.json en GitHub.
+5. En Vercel, redeploy desde el último commit.
+
+ARCHIVOS QUE NO DEBEN QUEDAR EN EL REPOSITORIO:
+
+package.json
+package-lock.json
+node_modules
+.next
+app
+pages
+components
+data
+lib
+next.config.js
+next.config.ts
+tsconfig.json
+tailwind.config.js
+postcss.config.js
+
+ARCHIVOS PRINCIPALES QUE SÍ DEBEN QUEDAR:
+
+index.html
+destinos.html
+cotizar.html
+experiencias.html
+contacto.html
+politicas.html
+404.html
+vercel.json
+assets/styles.css
+assets/script.js
+assets/logo.svg
